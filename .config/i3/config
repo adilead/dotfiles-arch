@@ -214,9 +214,6 @@ default_border pixel 1
 
 bindsym $mod+Escape mode "$mode_system"
 
-# start MEGA file sync
-exec --no-startup-id megasync
-
 # set wallpaper
 exec --no-startup-id nitrogen --restore
 
@@ -226,6 +223,8 @@ exec --no-startup-id setxkbmap -layout us -variant intl
 # flameshot
 exec --no-startup-id flameshot
 
+# start MEGA file sync
+exec --no-startup-id $HOME/.config/i3/scripts/launch_mega.sh
 # per workspace autostart
 # assign [class="Brave-browser"] 1
 # assign [class="spotify"] 2
