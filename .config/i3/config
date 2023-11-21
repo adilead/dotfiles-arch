@@ -241,3 +241,6 @@ exec --no-startup-id $HOME/.config/i3/scripts/launch_mega.sh
 # some styling
 gaps inner 5
 gaps outer 0
+
+# colors
+client.focused  #4c7899 #285577 #ffffff #fabd2f #fabd2f
